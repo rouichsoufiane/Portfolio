@@ -1,0 +1,12 @@
+{
+	"about-me": [
+		"Bonjour ! Je suis un développeur passionné, amoureux de la création de solutions innovantes et du développement d'applications conviviales. Avec de l'expérience à la fois en front-end et en back-end, c'est pourquoi je voudrais me considérer comme un développeur full stack. j'aime relever des défis complexes et améliorer continuellement mes compétences.",
+		"Lorsque je ne code pas, Vous pouvez me trouver en train de lire des livres, de regarder des films ou de faire de l'exercice. , ce qui m'aide à recharger mes batteries et à rester inspiré. Je suis toujours désireux d'apprendre et de collaborer avec d'autres membres de la communauté technologique, alors n'hésitez pas à me contacter !"
+	],
+	"services": [
+		{
+			"Web Development": "En tant que développeur web, je me spécialise dans la création de sites web dynamiques et réactifs qui offrent des expériences utilisateur fluides. Avec une expertise dans les technologies front-end et back-end, je construis des applications qui sont non seulement esthétiques mais aussi robustes et évolutives. Mon objectif est de livrer un code de haute qualité, d'optimiser les performances et d'assurer la compatibilité entre les navigateurs.",
+			"design web": "Mon processus de design consiste à concevoir des interfaces visuellement attrayantes qui s'alignent avec l'identité de la marque tout en garantissant une navigation facile et accessible. Je m'efforce d'équilibrer esthétique et fonctionnalité, résultant en des produits qui non seulement ont fière allure, mais qui améliorent également la satisfaction des utilisateurs et favorisent la fidélisation."
+		}
+	]
+}

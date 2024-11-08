@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<script
+			src="https://kit.fontawesome.com/d107d61cfe.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="owlcarousel/assets/owl.carousel.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="owlcarousel/assets/owl.theme.default.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="/lightbox/lightbox.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+	</head>
+	<body>
+		<!-- Header  -->
+		<header id="header">
+			<!-- Logo -->
+			<div class="logo">
+				<img
+					src="imgs/logo.png"
+					alt="logo"
+				/>
+			</div>
+
+			<!-- Navbar -->
+			<nav class="nav">
+				<ul
+					class="nav_list"
+					id="navList"
+				>
+					<li>
+						<a
+							href="#home"
+							class="scrollto active"
+							>HOME</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="#about"
+							>ABOUT</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="#skills"
+							>SKILLS</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="#services"
+							>SERVICES</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="#portfolio"
+							>PORTFOLIO</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="#contact"
+							>CONTACT</a
+						>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="nav-toggle">
+				<i
+					class="fa-solid fa-bars"
+					onclick="toggleMenu()"
+				></i>
+			</div>
+		</header>
+		<div id="navOverlay"></div>
+		<!-- Header End  -->
+
+		<!-- Hero Section Start -->
+		<section
+			class="hero"
+			id="home"
+		>
+			<div class="hero_content">
+				<h3 class="uppercase">Hello</h3>
+				<h1 class="uppercase">i am soufiane rouich</h1>
+				<h5 class="typed-text-output d-inline"></h5>
+				<div class="typed-text d-none">
+					Web Designer, Web Developer, Front End Developer, Full Stack
+					Developer, Apps Designer, Apps Developer
+				</div>
+				<br />
+				<a
+					href="#"
+					class="primary_btn mt mr"
+					><span>hire me</span></a
+				>
+				<a
+					href="#"
+					class="primary_btn mt tr-bg"
+					><span>get cv</span></a
+				>
+			</div>
+			<img
+				src="/imgs/home-right.png"
+				alt=""
+			/>
+		</section>
+		<!-- Hero Section End -->
+
+		<!-- About Section Start -->
+		<section
+			class="about"
+			id="about"
+		>
+			<img
+				src="/imgs/about-us.png"
+				alt=""
+			/>
+
+			<div class="about_container">
+				<div class="section-heading section-heading_about">
+					<span class="section_subtitle uppercase">my intro</span>
+					<h2 class="section_title">About Me</h2>
+				</div>
+				<div class="about_content">
+					<p style="margin-bottom: 1rem">
+						Hello! I’m a passionate developer with a love for creating
+						innovative solutions and building user-friendly applications. With
+						experience in both front-end and back-end that's why i would like to
+						call myself a full stack developer, I enjoy tackling complex
+						problems and continuously improving my skills.
+					</p>
+					<p>
+						When I’m not coding, you can find me reading books, watching movies
+						or working out, which helps me recharge and stay inspired. I’m
+						always eager to learn and collaborate with others in the tech
+						community, so feel free to connect!
+					</p>
+					<a
+						href="#"
+						class="primary_btn mt"
+						><span>download cv</span></a
+					>
+				</div>
+			</div>
+		</section>
+		<!-- About Section End -->
+
+		<!-- Skil Section Start -->
+		<section
+			class="skills"
+			id="skills"
+		>
+			<div class="section-heading">
+				<span class="section_subtitle uppercase">skills</span>
+				<h2 class="section_title">My Skills</h2>
+				<p>
+					Far far away, behind the word mountains, far from the countries
+					Vokalia and Consonantia
+				</p>
+			</div>
+
+			<!-- Skills Carousel -->
+			<div class="owl-carousel">
+				<!-- Skill card 1 -->
+				<div class="skill-card">
+					<h5 class="skill-title">HTML</h5>
+					<svg
+						width="150"
+						height="150"
+						viewBox="0 0 150 150"
+						class="circular-progress"
+						style="--progress: 80"
+					>
+						<defs>
+							<linearGradient id="Gradient1">
+								<stop
+									class="stop1"
+									offset="0%"
+								/>
+								<stop
+									class="stop2"
+									offset="100%"
+								/>
+							</linearGradient>
+						</defs>
+						<circle class="bg"></circle>
+						<text
+							x="75"
+							y="75"
+							class="skill-percentage"
+						>
+							80%
+						</text>
+						<circle class="fg"></circle>
+					</svg>
+				</div>
+				<!-- Skill card 2 -->
+				<div class="skill-card">
+					<h5 class="skill-title">CSS</h5>
+					<svg
+						width="150"
+						height="150"
+						viewBox="0 0 150 150"
+						class="circular-progress"
+						style="--progress: 70"
+					>
+						<circle class="bg"></circle>
+						<text
+							x="75"
+							y="75"
+							class="skill-percentage"
+						>
+							70%
+						</text>
+						<circle class="fg"></circle>
+					</svg>
+				</div>
+				<!-- Skill card 3 -->
+				<div class="skill-card">
+					<h5 class="skill-title">Javascript</h5>
+					<svg
+						width="150"
+						height="150"
+						viewBox="0 0 150 150"
+						class="circular-progress"
+						style="--progress: 65"
+					>
+						<circle class="bg"></circle>
+						<text
+							x="75"
+							y="75"
+							class="skill-percentage"
+						>
+							65%
+						</text>
+						<circle class="fg"></circle>
+					</svg>
+				</div>
+				<!-- Skill card 4 -->
+				<div class="skill-card">
+					<h5 class="skill-title">React</h5>
+					<svg
+						width="150"
+						height="150"
+						viewBox="0 0 150 150"
+						class="circular-progress"
+						style="--progress: 60"
+					>
+						<circle class="bg"></circle>
+						<text
+							x="75"
+							y="75"
+							class="skill-percentage"
+						>
+							60%
+						</text>
+						<circle class="fg"></circle>
+					</svg>
+				</div>
+				<!-- Skill card 5 -->
+				<div class="skill-card">
+					<h5 class="skill-title">Nextjs</h5>
+					<svg
+						width="150"
+						height="150"
+						viewBox="0 0 150 150"
+						class="circular-progress"
+						style="--progress: 65"
+					>
+						<circle class="bg"></circle>
+						<text
+							x="75"
+							y="75"
+							class="skill-percentage"
+						>
+							65%
+						</text>
+						<circle class="fg"></circle>
+					</svg>
+				</div>
+				<!-- Skill card 6 -->
+				<div class="skill-card">
+					<h5 class="skill-title">TailwindCss</h5>
+					<svg
+						width="150"
+						height="150"
+						viewBox="0 0 150 150"
+						class="circular-progress"
+						style="--progress: 70"
+					>
+						<circle class="bg"></circle>
+						<text
+							x="75"
+							y="75"
+							class="skill-percentage"
+						>
+							70%
+						</text>
+						<circle class="fg"></circle>
+					</svg>
+				</div>
+			</div>
+		</section>
+
+		<!-- Skill Section End -->
+
+		<!-- Services Section Start  -->
+		<section
+			class="services"
+			id="services"
+		>
+			<div class="section-heading">
+				<span class="section_subtitle uppercase">i am great at</span>
+				<h2 class="section_title">I Do Awesome Services For My Clients</h2>
+				<p>
+					Far far away, behind the word mountains, far from the countries
+					Vokalia and Consonantia
+				</p>
+			</div>
+
+			<!-- services -->
+			<div class="service_container">
+				<!-- Web Development -->
+				<div class="service">
+					<span class="service_icon">
+						<img
+							src="imgs/services icons/web-developpment.svg"
+							alt=""
+							srcset=""
+						/>
+					</span>
+					<h5 class="service_title">Web Development</h5>
+					<p>
+						As a web developer, I specialize in creating dynamic and responsive
+						websites that provide seamless user experiences. With expertise in
+						both front-end and back-end technologies, I build applications that
+						are not only visually appealing but also robust and scalable. My
+						focus is on delivering high-quality code, optimizing performance,
+						and ensuring cross-browser compatibility.
+					</p>
+				</div>
+				<!-- Web Design -->
+				<div class="service">
+					<span class="service_icon">
+						<img
+							src="imgs/services icons/web-design.svg"
+							alt=""
+							srcset=""
+						/>
+					</span>
+					<h5 class="service_title">Web Design</h5>
+					<p>
+						My design process involves crafting visually appealing interfaces
+						that align with brand identity while ensuring easy navigation and
+						accessibility. I strive to balance aesthetics and functionality,
+						resulting in products that not only look great but also enhance user
+						satisfaction and drive retention.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- Services Section End  -->
+
+		<!-- Projects Section Start  -->
+		<section
+			class="projects"
+			id="portfolio"
+		>
+			<span class="section_subtitle uppercase section_subtitle-projects"
+				>accomplishments</span
+			>
+			<div class="filters-container">
+				<h2 class="section_title section_title-projects">My Projects</h2>
+				<div class="projects-categories">
+					<button
+						class="category category-active"
+						data-filter="*"
+						onclick="filterSelection(event)"
+					>
+						All Projects
+					</button>
+					<button
+						class="category"
+						data-filter="front-end"
+						onclick="filterSelection(event)"
+					>
+						Front End
+					</button>
+					<button
+						class="category"
+						data-filter="full-stack"
+						onclick="filterSelection(event)"
+					>
+						Full Stack
+					</button>
+				</div>
+			</div>
+
+			<!-- projects -->
+			<div class="projects_container">
+				<!-- project 1 -->
+				<div class="project full-stack">
+					<img
+						src="/imgs/projects/furniture-ecommerce/1-small.JPG"
+						alt=""
+					/>
+					<!-- overlay content -->
+					<div class="overlay-container">
+						<a
+							href="/imgs/projects/furniture-ecommerce/1.JPG"
+							data-lightbox="project-1"
+							class="project_link"
+						>
+							<i class="fa-solid fa-eye"></i>
+						</a>
+						<a
+							class="project_link"
+							href="/project/furniture-ecommerce.html"
+						>
+							<i class="fa-solid fa-link"></i>
+						</a>
+					</div>
+				</div>
+				<!-- project 2 -->
+				<div class="project front-end">
+					<img
+						src="/imgs/projects/Regna/REGNA.jpg"
+						alt=""
+					/>
+					<!-- overlay content -->
+					<div class="overlay-container">
+						<a
+							href="/imgs/projects/Regna/1.JPG"
+							data-lightbox="project-2"
+							class="project_link"
+						>
+							<i class="fa-solid fa-eye"></i>
+						</a>
+						<a
+							class="project_link"
+							href="/project/regna.html"
+						>
+							<i class="fa-solid fa-link"></i>
+						</a>
+					</div>
+				</div>
+				<!-- project 3 -->
+				<div class="project front-end">
+					<img
+						src="/imgs/projects/Bookmark-landing-page/desktop-preview.jpg"
+						alt=""
+					/>
+					<!-- overlay content -->
+					<div class="overlay-container">
+						<a
+							href="/imgs/projects/Bookmark-landing-page/desktop-preview.jpg"
+							data-lightbox="project-3"
+							class="project_link"
+						>
+							<i class="fa-solid fa-eye"></i>
+						</a>
+						<a
+							class="project_link"
+							href="/project/bookmark-landing-page.html"
+						>
+							<i class="fa-solid fa-link"></i>
+						</a>
+					</div>
+				</div>
+				<!-- project 4 -->
+				<div class="project full-stack">
+					<img
+						src="/imgs/projects/recipes-agenda/1-meduim.JPG"
+						alt=""
+					/>
+					<!-- overlay content -->
+					<div class="overlay-container">
+						<a
+							href="/imgs/projects/recipes-agenda/1-meduim.JPG"
+							data-lightbox="project-3"
+							class="project_link"
+						>
+							<i class="fa-solid fa-eye"></i>
+						</a>
+						<a
+							class="project_link"
+							href="/project/recipe-calendar.html"
+						>
+							<i class="fa-solid fa-link"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Projects Section End  -->
+
+		<!-- Contact Section Start  -->
+		<section
+			class="contact"
+			id="contact"
+		>
+			<div class="section-heading contact_heading">
+				<h2 class="section_title section_title-contact">
+					Got A Project In <span>Mind?</span>
+				</h2>
+				<img
+					src="/imgs/contact illustration.jpg"
+					alt=""
+				/>
+			</div>
+			<form
+				id="form"
+				method="POST"
+				class="contact_form"
+			>
+				<input
+					type="hidden"
+					name="access_key"
+					value="82496283-c30c-4750-bf03-d3da1e175024"
+				/>
+				<div class="input_container">
+					<div class="name_container form_controller">
+						<label for="">Your Name</label>
+						<input
+							type="text"
+							name="name"
+							placeholder="Name"
+							onblur="setInvalidStyle(this)"
+							oninvalid="setInvalidStyle(this)"
+							required
+						/>
+						<span
+							class="error_msg"
+							id="name_error"
+						></span>
+					</div>
+					<div class="email_container form_controller">
+						<label for="">Your Email</label>
+						<input
+							type="email"
+							name="email"
+							placeholder="Email"
+							onblur="setInvalidStyle(this)"
+							oninvalid="setInvalidStyle(this)"
+							required
+						/>
+						<span
+							class="error_msg"
+							id="email_error"
+						></span>
+					</div>
+				</div>
+				<div class="message_container form_controller">
+					<label for="">Your Message</label>
+					<textarea
+						name="message"
+						id=""
+						rows="6"
+						placeholder="Message"
+						onblur="setInvalidStyle(this)"
+						oninvalid="setInvalidStyle(this)"
+						required
+					></textarea>
+					<span
+						class="error_msg"
+						id="msg_error"
+					></span>
+				</div>
+				<input
+					type="submit"
+					class="primary_btn submit_btn"
+				/>
+				<div id="result"></div>
+				<!-- TODO : style result-->
+			</form>
+		</section>
+		<!-- Contact Section End  -->
+
+		<!-- Footer Start -->
+		<footer>
+			<!-- social links -->
+			<div class="social-links">
+				<a
+					class="social-link"
+					href=""
+					><i class="fa-brands fa-facebook-f"></i
+				></a>
+				<a
+					class="social-link"
+					href=""
+					><i class="fa-regular fa-envelope"></i
+				></a>
+				<a
+					class="social-link"
+					href=""
+					><i class="fa-brands fa-linkedin-in"></i
+				></a>
+				<a
+					class="social-link"
+					href=""
+					><i class="fa-brands fa-youtube"></i
+				></a>
+			</div>
+		</footer>
+
+		<!-- Footer End -->
+
+		<!-- Libraries scripts -->
+		<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+		<script src="jquery.min.js"></script>
+		<script src="/lightbox/lightbox.js"></script>
+		<script src="owlcarousel/owl.carousel.min.js"></script>
+		<!-- main script -->
+		<script src="main.js"></script>
+	</body>
+</html>

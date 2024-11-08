@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<script
+			src="https://kit.fontawesome.com/d107d61cfe.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="/owlcarousel/assets/owl.carousel.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="/owlcarousel/assets/owl.theme.default.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="../style.css"
+		/>
+	</head>
+	<body>
+		<!-- Header  -->
+		<header id="header">
+			<!-- Logo -->
+			<div class="logo">
+				<img
+					src="/imgs/logo.png"
+					alt="logo"
+				/>
+			</div>
+
+			<!-- Navbar -->
+			<nav class="nav">
+				<ul
+					class="nav_list"
+					id="navList"
+				>
+					<li>
+						<a
+							href="/#home"
+							class="scrollto active"
+							>HOME</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="/#about"
+							>ABOUT</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="/#skills"
+							>SKILLS</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="/#services"
+							>SERVICES</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="/#portfolio"
+							>PORTFOLIO</a
+						>
+					</li>
+					<li>
+						<a
+							class="scrollto"
+							href="/#contact"
+							>CONTACT</a
+						>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="nav-toggle">
+				<i
+					class="fa-solid fa-bars"
+					onclick="toggleMenu()"
+				></i>
+			</div>
+		</header>
+		<div id="navOverlay"></div>
+		<!-- Header End  -->
+
+		<main class="container">
+			<!-- images slider -->
+			<div class="project-imgs owl-carousel owl-theme">
+				<div class="img-container">
+					<img
+						src="/imgs/projects/Bookmark-landing-page/desktop-preview.jpg"
+						alt=""
+					/>
+				</div>
+			</div>
+
+			<article class="project-detail-container">
+				<!-- project title -->
+				<h1>Bookmark Landing Page</h1>
+				<!-- project information  -->
+				<div class="project_intro">
+					<div class="project_info">
+						<table>
+							<tbody>
+								<tr>
+									<td><h6>category</h6></td>
+									<td>
+										<ul>
+											<li>Web Developpment</li>
+											<li>UX/UI Design</li>
+										</ul>
+									</td>
+								</tr>
+								<!-- <tr>
+									<td><h6>Client</h6></td>
+									<td><p></p></td>
+								</tr> -->
+								<tr>
+									<td><h6>Date</h6></td>
+									<td><p>2023</p></td>
+								</tr>
+								<tr>
+									<td><h6>technologies used</h6></td>
+									<td>
+										<ul>
+											<li>HTML</li>
+											<li>CSS / TailwindCss</li>
+											<li>Javascript</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="project_description">
+						<p>
+							This is a landing page of a bookmark manager. it's a challenge in
+							<a
+								href="https://www.frontendmentor.io"
+								target="_blank"
+								>Frontend Mentor</a
+							>
+							that i did to develop my Frontend skills
+						</p>
+						<div class="project_link">
+							<a
+								href="https://rouichsoufiane.github.io/bookmark-manager/"
+								target="_blank"
+								><i class="fa-solid fa-arrow-right"></i>Visit The Website</a
+							>
+						</div>
+					</div>
+				</div>
+			</article>
+		</main>
+
+		<!-- libraries  -->
+		<script src="/jquery.min.js"></script>
+		<script src="/owlcarousel/owl.carousel.min.js"></script>
+		<!-- main script -->
+		<script src="project-detail.js"></script>
+	</body>
+</html>
